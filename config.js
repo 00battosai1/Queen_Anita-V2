@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "davidcyril209@gmail.com";
+global.email = "peteradamsbt@gmail.com";
 global.location = "Abuja, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3AD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "234906628353";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "2347043759577";
+global.owner = process.env.OWNER_NUMBER || "2347052670254";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
+  caption: process.env.CAPTION || "`BATTOSAI_GOM™`",
+  author: process.env.PACK_AUTHER || "BATTOSAI_GOM",
   packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  botname: process.env.BOT_NAME || "BATTOSAI_GOM",
+  ownername: process.env.OWNER_NAME || "BATTOSAI_GOM",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
